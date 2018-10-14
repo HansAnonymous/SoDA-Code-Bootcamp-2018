@@ -24,7 +24,7 @@ const GetTodosAction = async () => {
       id: todo.id
     });
   }
-
+  console.log(todos);
   return todos;
 };
 
